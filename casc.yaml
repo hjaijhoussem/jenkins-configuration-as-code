@@ -1,0 +1,239 @@
+credentials:
+  system:
+    domainCredentials:
+    - credentials:
+      - string:
+          description: "token for github repo"
+          id: "gh-jenkins-tk"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAwAwOWN+8v5jzmiw1uRaZ7Y31xnV9C8RtfYz6SuyJCrk9BcYrfp51LoI2pTZawVNq7rwquPQFGBM0qaNVL58NO5Q==}"
+      - basicSSHUserPrivateKey:
+          id: "github-jenkins"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: GLOBAL
+          username: "hjaijhoussem"
+      - usernamePassword:
+          id: "nexus"
+          password: "jenkins3"
+          scope: GLOBAL
+          username: "jenkins"
+      - string:
+          id: "sonar-tk"
+          scope: GLOBAL
+          secret: "sqa_bc01f9274dcbc478c796452027271278efcb08c0"
+jenkins:
+  crumbIssuer:
+    standard:
+      excludeClientIPFromCrumb: false
+  disableRememberMe: false
+  disabledAdministrativeMonitors:
+  - "hudson.util.DoubleLaunchChecker"
+  labelAtoms:
+  - name: "built-in"
+  markupFormatter: "plainText"
+  mode: NORMAL
+  myViewsTabBar: "standard"
+  nodeMonitors:
+  - "architecture"
+  - "clock"
+  - diskSpace:
+      freeSpaceThreshold: "1GiB"
+      freeSpaceWarningThreshold: "2GiB"
+  - "swapSpace"
+  - tmpSpace:
+      freeSpaceThreshold: "1GiB"
+      freeSpaceWarningThreshold: "2GiB"
+  - "responseTime"
+  numExecutors: 2
+  primaryView:
+    all:
+      name: "all"
+  projectNamingStrategy: "standard"
+  quietPeriod: 5
+  remotingSecurity:
+    enabled: true
+  scmCheckoutRetryCount: 0
+  slaveAgentPort: 50000
+  updateCenter:
+    sites:
+    - id: "default"
+      url: "https://updates.jenkins.io/update-center.json"
+  views:
+  - all:
+      name: "all"
+  viewsTabBar: "standard"
+globalCredentialsConfiguration:
+  configuration:
+    providerFilter: "none"
+    typeFilter: "none"
+appearance:
+  prism:
+    theme: PRISM
+security:
+  apiToken:
+    creationOfLegacyTokenEnabled: false
+    tokenGenerationOnCreationEnabled: false
+    usageStatisticsEnabled: true
+  cps:
+    hideSandbox: false
+  gitHooks:
+    allowedOnAgents: false
+    allowedOnController: false
+  gitHostKeyVerificationConfiguration:
+    sshHostKeyVerificationStrategy: "knownHostsFileVerificationStrategy"
+  scriptApproval:
+    forceSandbox: false
+unclassified:
+  buildDiscarders:
+    configuredBuildDiscarders:
+    - "jobBuildDiscarder"
+  buildStepOperation:
+    enabled: false
+  email-ext:
+    adminRequiredForTemplateTesting: false
+    allowUnregisteredEnabled: false
+    charset: "UTF-8"
+    debugMode: false
+    defaultBody: |-
+      $PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS:
+
+      Check console output at $BUILD_URL to view the results.
+    defaultContentType: "text/plain"
+    defaultSubject: "$PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS!"
+    defaultTriggerIds:
+    - "hudson.plugins.emailext.plugins.trigger.FailureTrigger"
+    maxAttachmentSize: -1
+    maxAttachmentSizeMb: -1
+    precedenceBulk: false
+    throttlingEnabled: false
+    watchingEnabled: false
+  enrichedSummaryConfig:
+    enrichedSummaryEnabled: false
+    httpClientDelayBetweenRetriesInSeconds: 1
+    httpClientMaxRetries: 3
+    httpClientTimeoutInSeconds: 1
+  fingerprints:
+    fingerprintCleanupDisabled: false
+    storage: "file"
+  gitHubConfiguration:
+    apiRateLimitChecker: ThrottleForNormalize
+  gitHubPluginConfig:
+    hookUrl: "http://localhost:8081/github-webhook/"
+  globalTimeOutConfiguration:
+    operations:
+    - "abortOperation"
+    overwriteable: false
+  injectionConfig:
+    allowUntrusted: false
+    checkForBuildAgentErrors: false
+    enabled: false
+    enforceUrl: false
+    gradleCaptureTaskInputFiles: true
+    injectCcudExtension: false
+    injectMavenExtension: false
+    mavenCaptureGoalInputFiles: true
+  junitTestResultStorage:
+    storage: "file"
+  location:
+    adminAddress: "l'adresse n'est pas encore configurée <nobody@nowhere>"
+    url: "http://localhost:8081/"
+  mailer:
+    charset: "UTF-8"
+    useSsl: false
+    useTls: false
+  pollSCM:
+    pollingThreadCount: 10
+  scmGit:
+    addGitTagAction: false
+    allowSecondFetch: false
+    createAccountBasedOnEmail: false
+    disableGitToolChooser: false
+    hideCredentials: false
+    showEntireCommitSummaryInChanges: false
+    useExistingAccountWithSameEmail: false
+  sonarGlobalConfiguration:
+    buildWrapperEnabled: false
+    installations:
+    - credentialsId: "sonar-tk"
+      name: "mysonar"
+      serverUrl: "http://sonarqube:9000"
+      triggers:
+        skipScmCause: false
+        skipUpstreamCause: false
+  timestamper:
+    allPipelines: false
+    elapsedTimeFormat: "'<b>'HH:mm:ss.S'</b> '"
+    systemTimeFormat: "'<b>'HH:mm:ss'</b> '"
+tool:
+  git:
+    installations:
+    - home: "git"
+      name: "Default"
+  maven:
+    installations:
+    - name: "3.9.5"
+      properties:
+      - installSource:
+          installers:
+          - maven:
+              id: "3.9.5"
+  nodejs:
+    installations:
+      - name: "nodejs-18"
+        properties:
+          - installSource:
+              installers:
+                - nodeJSInstaller:
+                    id: "18.20.5"
+                    npmPackagesRefreshHours: 72
+  mavenGlobalConfig:
+    globalSettingsProvider: "standard"
+    settingsProvider: "standard"
+  sonarRunnerInstallation:
+    installations:
+    - name: "Sonar"
+      properties:
+      - installSource:
+          installers:
+          - sonarRunnerInstaller:
+              id: "6.2.1.4610"
+jobs:
+  - script: >
+      pipelineJob('car-pooling-be') {
+        definition {
+          cpsScm {
+            scm {
+              git {
+                remote {
+                  url('https://github.com/hjaijhoussem/Car-pooling-backend.git')  
+                  credentials('github-jenkins')
+                }
+                branch('*/main') 
+              }
+            }
+            scriptPath("Jenkinsfile") 
+            lightweight()  
+          }
+        }
+      }
+  - script: >
+      pipelineJob('car-pooling-fe') {
+        definition {
+          cpsScm {
+            scm {
+              git {
+                remote {
+                  url('https://github.com/hjaijhoussem/Car-pooling-frontend.git')  
+                  credentials('github-jenkins')
+                }
+                branch('*/main') 
+              }
+            }
+            scriptPath("carpools/Jenkinsfile") 
+            lightweight()  
+          }
+        }
+      }
+    
