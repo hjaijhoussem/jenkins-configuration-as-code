@@ -59,7 +59,7 @@ services:
     volumes:
       - './plugins.txt:/usr/share/jenkins/ref/plugins.txt'
       - /var/run/docker.sock:/var/run/docker.sock
-      #- jenkins_home:/var/jenkins_home
+      - jenkins_home:/var/jenkins_home
       - ./casc.yaml:/var/jenkins_home/casc.yaml
     networks:
       - pipeline
@@ -84,5 +84,5 @@ volumes:
     driver: local
   nexus-data:
     driver: local
-#  jenkins_home:
-#    driver: local
+  jenkins_home:
+    driver: local
