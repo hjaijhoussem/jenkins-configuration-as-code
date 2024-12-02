@@ -22,7 +22,15 @@ credentials:
       - string:
           id: "sonar-tk"
           scope: GLOBAL
-          secret: "sqa_bc01f9274dcbc478c796452027271278efcb08c0"
+          secret: "sqa_efdd8407e9501e13cc1d0e42de3f38815544792e"
+      - basicSSHUserPrivateKey:
+          id: "ansible-ssh-key"
+          passphrase: "{AQAAABAAAA1AEEJJrzdcBDj3beRaD6qLs+kto9EIpT4N4fpCkI9ymvR6JdKOC5hBdPMb90KF5wxhy54TUpJ6n31q4zboZ3EvbHBl/SHUJXR/w6sYxFD8uPd0TGJzsHxI/zArC6vopuP452MD0LhiFVot5gsR4bOOQbwlL4dyTbjFLBp+mjkokt3NNLl1W39RV4TC9+ktNr84ZCyCZYTtflOMpppbbtcf/m3wLN6Y3UIKcvGLU5sfSYsnDiNz7ttIqiuzgSXmRrcJgAg85iWuTeqc0SdnMvm4kDZQVMM036mj104nBT/xUoB4H2fF7pMHjLtoK0cqqsiSWFX9hI0v0kXcgobPR10vPv3bpyWFgvdmS6aU+qLcUyD7WGvzw8KasX6JQFL1xdypxJp1o1rni/BEHt0hexZJu5pzJQzsUvi1feTAlt8H71ZAji0HHQaIwonfRxkoAoVkr7SvqBPEbDbzZcUuGgWZn4rlvrCtn+tHTUfS9vS+w+G3EaUfb9cVlrt3jsLBQ2aWkkUZPQesQdDDvc9BCNN9HOir6YIy3okuEKMiWyCTnpBlzPMuDDm5f3G1IBTaat3Tjll6QkVvi7of6tZ0qZkcR4ilByfeR+0sFzwFiGybcC2Xj+VmAD4UVq2nGRptKlaMYQeFPM03jgZLzvFXzf+N/zc2C070ZImVqG0MAI93xu5OJxTpWi76MnqmrzoSTKCgqHqvXW79Hgi/4kUbQX143zzFGPgZqdAWalY9cLDmqNiMhm9qnVjmHskY00TQtrCa962htpgX4u9r8toDDcFuwaHBRvaBv7HvTVn1uthfC3d4jXvKdVFkHL/gN2VyyOcV4EvEaRgq9N8yudFnsG5i1ZK5C63g5v5eGCV96N+drBEalr1npv5jbdWYHarUWwb48qmJWQ6h/w00+7mD3AUDpv2LUSP3DfgNepuYKpvIBZW2KHY8xF5+Z9wL4FTI33ztMiWHzhU438QMbIgI6Jn5To1hYD3syUyVKEGNWD4Q4X22GG9iQubvTGYPTgQ5nM/lyp3gblYezkulZxuMGGaYEGbv43NX0e4uIsWpLUgbk7BYE7lhTjImsGu6mbjd36f/gtW5TrlziAWaZ9D0m95GMZCpRYBqmkpnVNrb9/nHTqHdNtQQ75XfYPEWH97EYdRi7IeIkRE6bd8l7I/IrxVSDv0gG+EUQbA4R1moUFrcF7U/5BPu4DsIdhdCrwBY4YrpUpI6HxawSPxubg5sfFDFF5UVI8djc06lyxbYWgxV6esLeZVgcuCBovkGorZXkCkZxhhsmwq6xTqjc1uFGBN0I1mHoNpg3P7oygX1aKgx6dZQDy6KQD/saH2LtIujHl6QZ0FqxwLBcZJzelYj7UwpeTXfunABg+i6M+0oNWmw27XLTef9voJos11kWkZmGBb8LekLSkzCsIo2/ZxisHnlNP4v2pyjcwXDderSGrx/y9lQWD/dS1T2EsoeIvzCaAdkibKlL9kNOTsABmL3eVWV9TfSzZqFlM9aUSCiriEuWLjv8+BWZLcIMvVXY7JLXVHe+KKJ2PsKp5vTpmf2nR0HdROlWPuq1omwpiLDAJutEq3Et7/mcvUD0FHcu0rd9XSx+zMFic20QONe7Q2h6EdXyyzI2xwiNaT/4QLVvueWrX3yroBeylDsfL66UnmsrqldswQUacmdqtDLswA3VnUa6PHNvbEi+iC64HHxvkc7C4qXxsLSIso3GYFUYgYFvkAmPL4batiUvIKZghe+q9kJn043n0qFwWLOCI1dNy3H3C65S4ISg/lpVkzdjCUWiH6djoW7nNPgThFhOSaSTLNFEPs51Q0jppaVU81+5gwXYmSlT/CWFqDNLHzLvJ8QAK4hqFJDfmzIbHegxJ08NsWqj+LWOL3BZv7mBy4KRUTOV+5uandaRMUaajx9QiDuvXc01Cwn6jLr3mJNUgO7CCvp+4ouZtQuE9nVu4vS7MnuNCcbTqr3mCHxCdd/x1zF+UugeFzP624chcGKCeTFNoMcJuGaIygaqywu/W7TqVecyq1S4JFjuJWDqzFcULJX/6jP61K2Z7Q1dzar6StMHBcDtQl7Y9JjavSeAhWQ3/Qg421IYTCqi3QG1lymjIpYoL2C50lALq+WhAYsYEJsHKoJSrR2VMMHJ4dx6JGjL3q9b15gFAdrMKgJ8sOiWW9kCFbaZhqMmeizVXZ8rgPMz+Nz3mox9USN7pJhyB13QEUd/qhC0bMBfKNpa0AWDmVlyV+UOnZYn0hpshDwzB4hTwUY9F+DYC+1G7WFtRoPjLktRo9AvjHYHQVVfKiITT27lGDUP7L6jTEwd0fV6evT1yAXNwfThJ1EcPjJ14+KFGiqAIkFFP4bybGMF+wC2igRscKXeAd2W1YVW8zg8JjR/M6YXmIyIEn+q/LkWCLADJWQrsbvyAqyrsVJ1UZD2xV/iYFMB1WsQagHw6Nh9GHb5dkU+1oM68VwT7tqeZFB4a3mYcJoOq+VZcMOGRz6TXQaVn9wPxk8nsEusKhyslOPHlAIWadICdCUEISoG0f4sfIQw6QJ3go/2v/GE7nxoG13E5hgip6BLmhSefJCIOZvQ1k4XjFM3S9NRLP+L8Xek19NYwBUgBVuWq8vV26ZbULRXUxqwQDefSXHTdtbrc1F74T0R/aqkYjhCaYiE2Lq/G8Z1NJ9vP4OplzXbM11lG4zLA60NpkkpnxtH2Od4uB9gv7JIUeNOEW2O9vHkyplMuIMQ71PV0kPgVDwsCPcNIi6AyF6AEjuwixUEp36uLhwRB53yS6/HSFoDeOb8Tkt12oIXmaQCB0VTZCVXO/g9a+GHnp3BrJDY57/sQKCB7DTT2V/Ce24DTU9OFrGWrP8uloc2pIfhyn0Q4bfW/YZqLUjKW5aEJ5fRJ7XZok/GF/MKXD3CB2D4pQNNnO1gX6ZhF3Ci359wwu4s8y4I/3N+huOIiQu+O/pyVptUQh14UHE0a/ZxwiM9w/DedNbK7pdjNHNkqMFnVqjHBl7pgW7CPeC1qe3Dz8y2s8mPCrZEiWgfjajYXIov8fB/jBcJLRU/HmGvuj+b/rCG9F2GC7O0yim/uZdKtwblQX+Cd4HtGFXBUCg/jffskFC60mN6CnPtyfxuB2vjnGe29wYh8nSciPuFk7fKiBCd4n4AtR7diLTNkFJCVeNaX+C5hByHqu9Tb9cqTIr6H7w5Ik7UkgCf2eGRfVw+f0MygHXaqQF1l1UxHCLdxuPkwBeYXDEttug1YJeOz71An6q5+BikhtU9bjVxGCmzysr4c8oHsipksVnpn9UmD8Sx9BThnZzFYtClEnFU3h9uLqeUgKe+KASAgDnzcZXXEcDV18wihuddVbaAeugfwf7pmr477fOemwuyjwfVjnBid/2IE+pqA+nbIFmMuhzL8LDmZ0YUo+RwOnRYIeOn7rcS+xuH6UJarVmqATi9mi1Pdd4SBMvz5cQcbX/W28c/gSUwvK/zi1s29sHXQOq3mSpgUP9hu+AV8Dfc2ZVbq1sN1u9XL5baP2yVGscU7uSDH3E99iDfRoG57dEaQzQ+ATUR18qjOi+OYRJuA0qyO/g4UZiUvjkN6WFG6G65kw+bwSldx5cMAuhEdwB3jXPc0dVryHXp5hdB0ykmh8n6G/AJ6Ascc6DoHr2rfMmUxLhx5Un69C0/M7+4ltxy08XMPzpjFWxL+Zgp+Ld2+G++4CcFXof70UZr2lMiEkNLKZd0Vg6vuBMJfZ+2VGby+QTRPfBt+e7qJpxkmeES5g5BdHljctdGuTNPHvumLOa7LVgdi36WaRVq/eNkb6SFx9iDeY9GIwD2AiTkkTHDSwBdbq7kXnuDolR99jUIqb5Ee1no6lV/frWifMgFF2xyg9wwd04VnnvGX6urrUnIElLxMmmdYSnt1YLfH51YLnnO64yQWXK2q90ghj62SLwZBVbtxttYcZQYl5WNT2H0Mli8SthqBtLGnPAjOMgRNMug+kd07XZ5C4CrerR3oegMyoPEgJ0bfe3SMu/P7uPc8u3eKi0hcvLMXmH/LKKe8Qvsj7xcyKlSAsZm1lyxcUHRwBPmpsNjP14cK6iTz8yRcqoHa3s6h1mz6LQFH5Eyc85eXgZjrHU49lyFe/w8+JQdANts8gkJKwZyFusvnCghOeu2bco5rn2edYYqT7ILOWEwAbDB0pa0GGIi6zoqPla9nUPlW+6l8DeUTXhWJtPdmvUVcg4IvU00ILbxvl/7h525AfCe2/hZbvSLQee83msNbVwNBLwpPWZEExYdcLY7Ttr2QKO5xhrwaUpviP3sF5vhjOlw/8XLQDT+xXxFq4CBvB6IT++G9CPXSpSCqU0Z+naMVd6xRjdC8zb4C6wJUZR9Q5CYCHWBI0mgxy74GqygG4ioP9bD9jFWD/inwJQogH7Fd1RofWoGkuoFZfL0wQFvV5V5ExDAddq5uOH8BpN9v6ThapDTLBvQdGnamrvpr0QR/fIfUwdB6Nw4m1FaZc5QTNNFnqX5P3ggO2cTN1AuMm4MwR1+dXuOWk1Q24LvnG537kHJqsvg7fqN3xM1IRveHhd}"
+          privateKeySource:
+            directEntry:
+              privateKey: "{AQAAABAAAAAQeFxvS57Czf0NPSJ14xihVXo35JyLiJbYWxKdCzdSrpA=}"
+          scope: GLOBAL
+          username: "root"
 jenkins:
   crumbIssuer:
     standard:
@@ -167,6 +175,19 @@ unclassified:
     elapsedTimeFormat: "'<b>'HH:mm:ss.S'</b> '"
     systemTimeFormat: "'<b>'HH:mm:ss'</b> '"
 tool:
+  ansible:
+    installations:
+      - home: "/usr/bin/ansible"
+        name: "ansible-home"
+      - name: "ansible:latest"
+        properties:
+          - installSource:
+              installers:
+                - batchFile:
+                    command: "sudo apt update \r\nsudo apt install -y software-properties-common\r\
+                  \nsudo apt-add-repository --yes --update ppa:ansible/ansible\r\nsudo\
+                  \ apt install -y ansible"
+                    toolHome: "/usr/bin/ansible"
   git:
     installations:
     - home: "git"
@@ -200,6 +221,22 @@ tool:
           - sonarRunnerInstaller:
               id: "6.2.1.4610"
 jobs:
+  - script: >
+      multibranchPipelineJob('car-pooling-fe-multibranch') {
+        branchSources {
+          git {
+            id('car-pooling-backend-git')
+            remote('https://github.com/hjaijhoussem/Car-pooling-backend.git')
+            credentialsId('github-jenkins')
+          }
+        }
+        factory {
+          workflowBranchProjectFactory {
+            scriptPath("Jenkinsfile")
+          }
+        }
+      }
+
   - script: >
       pipelineJob('car-pooling-be') {
         definition {

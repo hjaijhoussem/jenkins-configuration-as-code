@@ -22,7 +22,9 @@ docker-plugin:latest
 docker-workflow:latest
 swarm:latest
 sonar:latest
-job-dsl:1.77
+job-dsl:1.87
 nodejs:1.6.2
+ansible:403.v8d0ca_dcb_b_502
+ansicolor:1.0.5
 
 

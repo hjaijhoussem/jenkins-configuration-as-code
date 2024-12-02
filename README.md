@@ -10,9 +10,9 @@ This repository provides a complete setup for Jenkins using Docker, with Configu
 3. [Plugins file](#plugins-file)
 4. [CASC YAML Configuration](#casc-yaml-configuration)
    5. [Most Ferquent Updated Configurations](#most-ferquent-updated-configurations)
-      1. [Adding credentials](#adding-credentials) 
-      2. [Adding Tools](#adding-tools)
-      3. [Pipeline automation](#automate-pipeline-creation-in-jenkins)
+         1. [Adding credentials](#adding-credentials) 
+         2. [Adding Tools](#adding-tools)
+         3. [Pipeline automation](#automate-pipeline-creation-in-jenkins)
 4. [How to Use](#how-to-use)
 
 ---
